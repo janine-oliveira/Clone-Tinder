@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Noto+Sans+Bamum&family=Roboto&display=swap" rel="stylesheet">
+    
+    <script src="main.js"></script>
+
+    <title>&hearts; Tinder  &hearts;</title>
+    <script src="https://kit.fontawesome.com/3c99808b33.js" crossorigin="anonymous">
+
+    </script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <i class="fa-solid fa-fire-flame-curved" style="color: #fb0442;" onclick="window.location.href='index.html'"></i>
+
+        <i class="fa-solid fa-comments" style="color: #c5c6c9;" onclick="window.location.href='conversas.html'"></i>
+
+        <i class="fa-solid fa-user" style="color: #c5c6c9;" onclick="window.location.href='match.html'"></i>
+    </nav>
+
+    <div class="photo-action">
+        
+        <div class="photo">
+            
+            <div class="photo-text">
+                <span id="status"></span>
+                <div class="photo-name-age">  
+                    <h2 id="name">Davi</h2>
+                    <h2 id="idade">29</h2>
+                </div>
+                <div class="photo-bio" id="descrition">
+                    Apaixonado por melhorar sempre!
+                </div>
+            </div>
+        </div>
+
+        <div class="actions">
+
+            <button onclick="DesLike()" class="action" style="border: 1.5px solid #fb0442;">
+            <div>
+                <i class="fa-solid fa-xmark" style="color: #fb0442; font-size: 2.3rem;"></i>
+            </div></button> 
+
+            <button onclick="SuperLike()" class="action" style="border: 1.5px solid #2db1ff;">
+            <div>
+                <i class="fa-solid fa-star" style="color: #2db1ff;"></i>
+            </div></button>
+            
+            <button onclick="Like()" class="action" style="border: 1.5px solid #16c23c;">
+            <div>
+                <i class="fa-solid fa-heart" style="color: #16c23c; font-size: 1.8rem;"></i>
+            </div></button>
+            
+        </div>
+    </div>
+
+</body>
+</html>
